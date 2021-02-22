@@ -1,0 +1,28 @@
+---
+title: "Insert Assignment Title"
+subtitle: "Biostatistics (MA482/BE482)"
+author: "Author-1, Author-2, etc."
+date: "Updated: `r Sys.Date()`"
+output: reyes482::ma482_word_format
+---
+
+```{r setup, include=FALSE}
+# Note to Students:
+#  Do not alter this block of code.
+reyes482:::ma482_setup()
+```
+
+
+## Problem 1 (use 2 hashtags for problem delimiters)
+
+### Part (a) (use 3 hashtags for part delimiters)
+There is no need to copy the problem description.  Just type your answers in the white space.
+
+Insert a code chunk using the "Insert" button at the top of the script window.  Place code inside of the resulting block, and you can test the code by hitting the green "play" button at the top-right corner of the code block.  Below is an example.  See the Coding Cookbook on the course site for details on the R code to use.
+
+```{r}
+cars %>% 
+  summarise(`Mean Speed` = mean(speed))
+```
+
+Make sure there is always a blank line between plain text and a code block.  When your assignment is complete, click the "knit" button at the top of the script window.
